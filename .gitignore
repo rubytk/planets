@@ -1,2 +1,3 @@
-*.dat
-results/
+*.dat 		#ignore everything with extension .dat
+!a.dat 		# do not ignore this (! is an exception marker)
+results/ 	#ignore everthing in results/ folder
